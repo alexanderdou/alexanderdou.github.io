@@ -1,2 +1,3 @@
 name: Alex Dou's personal site build 1 using Jekyll
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
