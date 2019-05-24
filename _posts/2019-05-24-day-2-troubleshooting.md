@@ -10,6 +10,10 @@ date: 2019-05-24
 
 # Action items
 * Read documentation on how to set up a Github Page for alexanderdou.com
+ * As per instructions here: https://help.github.com/en/articles/setting-up-an-apex-domain
+  * Confirmed via dig in Terminal that the IP addresses are working
+ * Set up custom domain on the Github side as well, but I'm not sure if that will do anything...
+ * Changed CNAME record on DNS side
 * See if blasting the cache helps the first issue
 * Create posts without going to this editor (maybe command line?)
 * Add pictures in easily (AWS? Look to see if that's free for low usage)
