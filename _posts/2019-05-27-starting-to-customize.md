@@ -12,9 +12,9 @@ To do that, I'm using the [stock Jekyll themes supported by Github, located here
 
 1. Choose a theme. [Minimal](https://pages-themes.github.io/minimal/) looks really nice
 2. Break down the elements that I'm going to have to build:
-  * Sidebar / main content (![gif here](/assets/Kapture%202019-05-27%20at%2013.10.07.gif))
+  * Sidebar / main content ![gif here](/assets/Kapture%202019-05-27%20at%2013.10.07.gif)
   * Font styles
-    * Specifically around ul items: looks like they're currently styled with Times (![screenshot here](/assets/Screen%20Shot%202019-05-27%20at%201.14.55%20PM.png))
+    * Specifically around ul items: looks like they're currently styled with Times ![screenshot here](/assets/Screen%20Shot%202019-05-27%20at%201.14.55%20PM.png)
   * Treating images (a little outside the scope here, but important)
 3. Are there any pages that this theme will clash with?
   * Home- I don't think so
