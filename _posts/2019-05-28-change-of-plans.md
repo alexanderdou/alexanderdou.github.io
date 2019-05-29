@@ -16,3 +16,14 @@ Tasks:
 
 Things I learned today:
 * How to get out of vi. I think that's enough for today.
+
+Update from 5/29:
+* I think I got the localhost to work! Testing this to see if it shows up in local
+* It does!
+
+Log from yesterday:
+* Went through the instructions on the above link
+* Ran into issues with updating the Ruby gems, which blocked me on step 2 (Install Jekyll using Bundler). From Google, it seems like the problem was that I was trying to update/make changes to the /system's/ version of Ruby, and so the terminal commands were being blocked. The fix for that was installing RVM, which is a package manager that helps to manage the Ruby installation and ostensibly allow me to have my own personal non-system version of Ruby
+* Cloned the repo from Github.com browser to my personal computer
+* Linked them with origin and upstream
+* Made some test changes and pushed to master
