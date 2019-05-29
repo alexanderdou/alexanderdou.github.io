@@ -13,3 +13,6 @@ Tasks:
 * Learn how to build locally
 * Learn how to deploy and merge (I think this is where Pull Requests come in to play) when I'm satistied with the local build
 * My developer roommate also told me about "gulp" and that there's a wide world of web developer build tools, so do some research on the surface area of that world
+
+Things I learned today:
+* How to get out of vi. I think that's enough for today.
