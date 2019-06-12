@@ -1,3 +1,8 @@
-name: Alex Dou's personal site build 1 using Jekyll
+name: I am Alex Dou
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-minimal
+title: "Alex Dou: Product, Photography, some third thing that begins with 'P'"
+description: "My name is Alex Dou. I am trying to create a little corner of the Internet for myself to maintain, customize, and live in. Feel free to come in and take a look around, I just ask that you take off your shoes and put on these fuzzy slippers."
+plugins:
+  - jekyll-seo-tag
