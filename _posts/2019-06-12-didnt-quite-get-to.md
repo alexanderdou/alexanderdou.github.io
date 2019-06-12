@@ -15,7 +15,7 @@ I tried:
 
 None of them worked
 
-#What we'll do today
+# What we'll do today
 Today I'll look into the documentation on Jekyll [here](https://jekyllrb.com/docs/themes/)
 
 I'll also try to reason out how the theme might be being applied (clearly it has its own CSS, so could the CSS I set up originally be interfering with it? I tried removing the CSS in the <head> of the index.html on my Home page, but that only stripped any styling)
@@ -25,5 +25,6 @@ I'll also Google!
 If none of that works I'll just ask my roommate. Easy peasy
 
 
-#Updates
+# Updates
 * Huzzah! I figured it out. In [these docs](https://jekyllrb.com/docs/themes/) I saw that Jekyll will look "to your site's content before looking to the theme’s defaults for any requested file in the following folders": /assets, /_layouts, /_includes, and /_sass. Because I had stuff in /_layouts, it was looking to those as the default. I would think that they would include that in there...
+* I had some merge conflicts from changing the site theme with the Jekyll Theme Choose yesterday that I ended up kind of forcing through, and now we have another error where "alexanderdou.com redirected you too many times". Always another struggle. 
