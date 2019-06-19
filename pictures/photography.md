@@ -11,7 +11,7 @@ title: Photography
 ![Madrid](/pictures/travel/spain/DSC07691.jpg)
 ![Malasaña](/pictures/travel/spain/DSC07716.jpg)
 
-#Japan
+# Japan
 ![The Brooklyn of Tokyo](/pictures/travel/japan/DSC04684.jpg)
 ![Conrad Tokyo](/pictures/travel/japan/DSC05049.jpg)
 ![Perfect toaster](/pictures/travel/japan/DSC05245.jpg)
