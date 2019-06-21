@@ -4,6 +4,6 @@ baseurl: /
 url: https://alexanderdou.com
 permalink: /blog/:year/:month/:day/:title
 title: "Doujo"
-description: "My name is Alex Dou. I am trying to create a little corner of the Internet for myself to maintain, customize, and live in. Feel free to come in and take a look around, I just ask that you take off your shoes and put on these fuzzy slippers."
+description: "My name is Alex Dou. This is a little corner of the Internet for myself to live in. Feel free to come in and take a look around, I just ask that you take off your shoes and put on these fuzzy slippers."
 plugins:
   - jekyll-seo-tag
