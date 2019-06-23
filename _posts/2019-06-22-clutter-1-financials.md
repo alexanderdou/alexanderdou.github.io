@@ -26,7 +26,7 @@ Here are some disclaimers for this post:
 * Wages
 	* Warehouse / labor pay- I'm breaking this category out separately because these employees are classified as part time hourly and are not offered benefits
 	* HQ / R&D pay- these are going to be your executives, your Product & Engineering folk, your Marketing and Direct Sales teams, and your CS employees, in decreasing order of pay and respect (more on this later)
-* Marketing costs, or CAC (Cost of Acquiring a Customer)
+* Marketing costs, or CAC (Customer Acquisition Cost)
 	* More on this below
 
 ## An exploration of Clutter's Revenues
@@ -37,7 +37,7 @@ Here are some disclaimers for this post:
 # How San Francisco (technically, Clutter is in LA) startups tend to spend money
 ## Aka a quick primer on CAC and LTV
 
-In Direct to Consumer (D2C) companies (for example, Quip, Casper, or Great Jones), the main metric is CAC— the Cost of Acquiring a Customer. In the purest of sales company—a traveling salesman selling encyclopedias—your CAC is that salesperson's salary (and commission). Scale up and throw in Facebook Ads and Google AdWords and your CAC is a little more complicated. 
+In Direct to Consumer (D2C) companies (for example, Quip, Casper, or Great Jones), the main metric is CAC— the Customer Acquisition Cost. In the purest of sales company—a traveling salesman selling encyclopedias—your CAC is that salesperson's salary (and commission). Scale up and throw in Facebook Ads and Google AdWords and your CAC is a little more complicated. 
 
 I don't believe there are any GAAP rules for how you calculate CAC, but lots of companies take that as a reason not to think about it. 
 
