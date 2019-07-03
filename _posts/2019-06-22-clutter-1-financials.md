@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clutter Pile 1: Financials"
+title: "Dissecting Startups- Clutter Pile 1: Financials"
 date: 2019-06-22
 ---
 

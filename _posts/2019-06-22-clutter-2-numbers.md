@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clutter Pile 2: Numbers"
+title: "Dissecting Startups- Clutter Pile 2: Numbers"
 date: 2019-06-27
 ---
 
