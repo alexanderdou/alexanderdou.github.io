@@ -3,18 +3,38 @@ layout: page
 title: Photography
 ---
 
-# Spain
-![Sagrada Familia](/pictures/travel/spain/DSC07553.jpg)
-![Nomad coffee](/pictures/travel/spain/DSC07621.jpg)
-![Tomates](/pictures/travel/spain/DSC07669.jpg)
-![Plaza Mayor](/pictures/travel/spain/DSC07680.jpg)
-![Madrid](/pictures/travel/spain/DSC07691.jpg)
-![Malasaña](/pictures/travel/spain/DSC07716.jpg)
+# Photography
 
-# Japan
-![The Brooklyn of Tokyo](/pictures/travel/japan/DSC04684.jpg)
-![Conrad Tokyo](/pictures/travel/japan/DSC05049.jpg)
-![Perfect toaster](/pictures/travel/japan/DSC05245.jpg)
-![Bay window](/pictures/travel/japan/DSC05258.jpg)
-![Perfect tree](/pictures/travel/japan/DSC05326.jpg)
-![Late nights](/pictures/travel/japan/DSC05399.jpg)
+<details>
+	<summary>Spain</summary>
+	<p>Sagrada Familia</p>
+	<img src="/pictures/travel/spain/DSC07553.jpg">
+	<p>Nomad coffee</p>
+	<img src="/pictures/travel/spain/DSC07621.jpg">
+	<p>Tomates</p>
+	<img src="/pictures/travel/spain/DSC07669.jpg">
+	<p>Plaza Mayor</p>
+	<img src="/pictures/travel/spain/DSC07680.jpg">
+	<p>Madrid</p>
+	<img src="/pictures/travel/spain/DSC07691.jpg">
+	<p>Malasaña</p>
+	<img src="/pictures/travel/spain/DSC07716.jpg">
+</details>
+
+
+<details>
+	<summary>Japan</summary>
+	<p>The Brooklyn of Tokyo</p>
+	<img src="/pictures/travel/japan/DSC04684.jpg">
+	<p>Conrad Tokyo</p>
+	<img src="/pictures/travel/japan/DSC05049.jpg">
+	<p>Perfect toaster</p>
+	<img src="/pictures/travel/japan/DSC05245.jpg">
+	<p>Bay window</p>
+	<img src="/pictures/travel/japan/DSC05258.jpg">
+	<p>Perfect tree</p>
+	<img src="/pictures/travel/japan/DSC05326.jpg">
+	<p>Late nights</p>
+	<img src="/pictures/travel/japan/DSC05399.jpg">
+</details>
+
