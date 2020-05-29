@@ -51,6 +51,6 @@ One of the big blocks they're still missing is a network of delivery drivers, bu
 ## Next up: how eCommerce fits into Facebook users' lives with Signalling as a Service
 In this article, we've discussed the long road that Facebook took to get to yesterday, where they could announce that Shops was live. We also talked about the long road ahead of them before they can become the WeChat of the West. 
 
-In looking at this investment, you might expect Shop to take a large commission from Sellers. However, Facebook is not charging anything other than the basic payment processing fee, which a Seller would have to pay WITHOUT Shop. 
+In looking at this investment, you might expect Shops to take a large commission from Sellers. However, Facebook is not charging anything other than the basic payment processing fee, which a Seller would have to pay WITHOUT Shops. 
 
 In the next article, we'll talk about why. 
