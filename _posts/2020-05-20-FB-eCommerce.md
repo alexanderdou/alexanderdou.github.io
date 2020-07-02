@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Facebook and eCommerce world domination
+title: Facebook and eCommerce domination Part 1/3- Tetris, but make it $100 Billion
 date: 2020-05-20
 ---
 ![beefshop- photography by me(!) on a trip to Tokyo](/assets/images/DSC04727.jpg)
@@ -15,15 +15,15 @@ Forgive the kindergarten-level drawing, but this is how I'm thinking about Shop 
 
 There are three big parts:
 1. **eCommerce (which we'll focus on in this article)**
-2. Signalling as a Service
-3. Strategic footholds against competitors
+2. Signalling as a Service (you can skip ahead to that in [Supreme Shows Us the Way](https://alexanderdou.com/blog/2020/05/29/FB-eCommerce-pt2))
+3. Strategic footholds against competitors (you can skip to [Gee, Brain. What are we going to do tonight?](https://alexanderdou.com/blog/2020/07/01/FB-eCommerce-pt3))
 
 These three components are related, and excelling in one gives you advantages in the other, but are meaty and discrete enough that we can tackle them in multiple articles.
 
 ## Facebook and eCommerce: a long time in the works
 It should go without saying, but Products take a long time to build. 
 
-Hofstadter's Law says: It always takes longer than you expect, even when you take into account Hofstadter's Law.
+**Hofstadter's Law says: It always takes longer than you expect, even when you take into account Hofstadter's Law.**
 
 My wild guess is that Facebook first conceived of this plan 5-7 years ago, and yesterday was Day 1 of when the clock actually started on "Facebook as an eCommerce platform". 
 

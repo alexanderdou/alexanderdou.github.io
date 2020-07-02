@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Facebook and eCommerce domination Part 3/3— Gee, Brain. What are we going to do tonight? 
+date: 2020-06-21
 ---
 
 [In the last article](https://alexanderdou.com/blog/2020/05/29/FB-eCommerce-pt2), we explored the human habit of Signaling and how it put FB/IG at the apex of the social world. 

@@ -9,6 +9,11 @@ date: 2020-05-29
 We're going to be talking about the middle portion of the Facebook Iceberg
 ![faceberg](/assets/images/faceberg.jpg)
 
+There are three big parts:
+1. eCommerce (you can review that in [Tetris, but make it $100 Billion](https://alexanderdou.com/blog/2020/05/20/FB-eCommerce))
+2. Signalling as a Service 
+3. Strategic footholds against competitors (you can skip to [Gee, Brain. What are we going to do tonight?](https://alexanderdou.com/blog/2020/07/01/FB-eCommerce-pt3))
+
 
 ## Pre-requisite topic 1: Signaling as a Service
 To examine this, we’ll talk about a concept called [“Signaling"](https://julian.digital/2020/03/28/signaling-as-a-service/). 
