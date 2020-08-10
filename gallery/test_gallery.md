@@ -1,0 +1,21 @@
+---
+layout: art_gallery_page
+title: test_gallery
+---
+
+<div>
+      	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+		{% for image in page.images %}
+        <li><a href="{{ image }}">
+        	{% if page.captions[image] == nil %}
+        	<img data-caption="<a class='clearing-link' href='/contact/'>Ask me about this work</a>" src="thumbs/{{ image }}">
+            {% else %}
+        	<img data-caption="{{ page.captions[image] }}.  <a class='clearing-link' href='/contact/'>Ask me about this work</a>" src="thumbs/{{ image }}" alt="{{ page.captions[image] }}" title="{{ page.captions[image] }}">
+            {% endif %}
+        </a></li>
+		{% endfor %}
+	</ul>
+	<div id="spinner"></div>
+</div>
+
+{{ page.description }}

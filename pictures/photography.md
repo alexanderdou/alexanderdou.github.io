@@ -3,6 +3,7 @@ layout: page
 title: Photography
 ---
 
+
 # Photography
 
 <details>
@@ -38,4 +39,4 @@ title: Photography
 	<img src="/pictures/travel/japan/DSC05399.jpg">
 </details>
 
-
+[test_link](/gallery/test_gallery.html)
