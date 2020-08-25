@@ -1,10 +1,66 @@
-name: I am Alex Dou
-markdown: CommonMarkGhPages
-baseurl: /
+site: Doujo
 url: https://alexanderdou.com
-permalink: /blog/:year/:month/:day/:title
-title: "Doujo"
-description: "My name is Alex Dou. This is a little corner of the Internet for myself to live in. Feel free to come in and take a look around, I just ask that you take off your shoes and put on these fuzzy slippers."
+title: Al's Place
+markdown: kramdown
+description: 
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: https://alexanderdou.com
+permalink: pretty
+
+baseurl: /
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+    footnote_backlink: "⤴"
