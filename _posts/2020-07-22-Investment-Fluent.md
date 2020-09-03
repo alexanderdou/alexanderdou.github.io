@@ -4,7 +4,7 @@ title: Investment Memo Practice- Fluent
 date: 2020-07-22
 ---
 
-***Quick note before we begin:***
+#### Quick note before we begin:
 * This is purely a hypothetical exercise. I do not know if the company/product/piece of software featured in this article is looking for investment
 * The purpose of this Investment Memo is for me to [deliberately practice](https://commoncog.com/blog/so-good-they-cant-ignore-you/#dodeliberatepractice) my [Product Taste](https://www.evernote.com/l/ArLTsgomZARKW5ci-eTDQQ0XOhN62MARpFY). It is an effort in understanding the Product positioning, Design decisions, Engineering tradeoffs, and possible branches that this iteration of a Product represents
 * This is not a rant, or a critical “take” on the miracle that is any successful launch of software. The team—this collection of human beings—has created something where there was once nothing, and that should be celebrated. My default posture and tenor in this writing is intended to be “dispassionate and earnestly asking genuine questions”. Any departure from that should first be viewed as a mistake in my editing and then be vociferously called out so that I can revisit my wording
