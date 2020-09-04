@@ -6,6 +6,8 @@ date: 2020-08-03
 
 *[Before we begin, the customary asterisks apply](https://alexanderdou.com/2020/07/22/investment-fluent#quick-note-before-we-begin)*  
 
+*Post-publication note: [here's an example of a company sprouting up around applying GPT-3 to business applications](https://magicemail.io/?ref=producthunt). It's likely a coincidence that the use case is exactly the same as Say Less*
+
 
 ## Introduction
 
