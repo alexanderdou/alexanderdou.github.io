@@ -8,6 +8,8 @@ date: 2020-08-03
 
 *Post-publication note: [here's an example of a company sprouting up around applying GPT-3 to business applications](https://magicemail.io/?ref=producthunt). It's likely a coincidence that the use case is exactly the same as Say Less*
 
+*Post-Post-publication note: [here's another](https://www.producthunt.com/posts/kriya-ai-2): this one will generate intro emails for you, source, and send. [The top comment?](https://www.producthunt.com/posts/magic-email#comment-1130609): a request for automatic GPT-3 generated reply messages. This truly is the most boring dystopia we have created*
+
 
 ## Introduction
 
