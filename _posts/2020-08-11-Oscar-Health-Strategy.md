@@ -6,6 +6,8 @@ date: 2020-08-11
 
 *Note: I’ve been doing some reading over the last 2 weeks about the state of American healthcare in preparation for my interview with Oscar Health. This is my current understanding of the space, and the strategy I believe we ought to take* 
 
+*Update: This was originally in preparation for my interview with Oscar Health. I believe this is generalizable to a raft of new startups attacking the Big 5 insurance companies (Anthem, Humana, Aetna, Cigna, and UHC). These include companies like Oscar, Decent, and Sana Benefits*
+
 *There are large gaps in my knowledge, experience, and vocabulary—cut me some slack, I’ve only been at this for 2 weeks. The purpose of this memo is to surface diffs from people who know more about those gaps and help me learn*
 
 
