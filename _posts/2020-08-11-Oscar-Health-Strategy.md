@@ -20,24 +20,25 @@ In terms of world rankings, the US routinely comes up on the lower end. If not i
   
 
 
-It’s slow, it’s bureaucratic, and it is incredibly, remarkably resistant to change. The reason for this is that there are incredible amounts of money to lose. In software engineering terms, American healthcare is in [deadlock](https://en.wikipedia.org/wiki/Deadlock). If you start knocking down the costs of healthcare, here is what will happen:  
+It’s slow, it’s bureaucratic, and it is incredibly, remarkably resistant to change. The reason for this is that there are incredible amounts of money to lose. In software engineering terms, American healthcare is in [deadlock](https://en.wikipedia.org/wiki/Deadlock). If you start attempting to cut down the costs of healthcare, here is what will happen:  
 
 
 * Doctors (which heretofore will be referred to by industry standard lingo as “providers”) will yell because they need high salaries to pay back colossal tuitions, loaned at extortionate rates 
-* Hospitals (industry lingo: “provider groups”) will yell: they need to charge a lot to 1) pay those high salaries and 2) keep administrator salaries appropriately high
-* Insurance companies (industry lingo: “payers”) will yell because they make money on margin, and lower prices means lower dollar profit
+* Hospitals (**industry lingo: “provider groups”**) will yell: they need to charge a lot to 1) pay those high salaries and 2) keep administrator salaries appropriately high
+* Insurance companies (**industry lingo: “payers”**) will yell because they make money on margin, and lower prices means lower dollar profit
 * The government will yell because the government is largely a speakerphone for payers via lobbying
 
 
-Payers have created enough regulatory capture that it’s incredibly hard for anyone to break in. If you wanted to, here would be your available entry points:  
+Payers have created enough regulatory capture that it’s incredibly hard for anyone to break in. If you wanted to, here are some of your available entry points:  
 
-* Provider/Provider Group (e.g. Forward): you’re subject to the whims of the payer
-* Widget and tool seller (e.g. Stel): you’re subject to the whims of the provider
-* Payer: this is the “best” position, but it requires immense capitalization (you’re going to need to be ready to pay $1B in claims, at least to start) and you will face intense resistance from the above parties
-Finally, the thing to remember is that there’s a huge disconnect between payers and patients. For giant corporations like Blue Shield, Aetna, and UHC, it’s a game of margins. But they forget that the dollar value of a single basis point is enough to bankrupt the typical American household many times over. 
+* Provider/Provider Group (e.g. Forward): however, if you start here, you’re subject to the whims and incentives of the payer
+* Widget and tool seller (e.g. Stel): start here, and you’re subject to the whims and incentives of the provider
+* Payer: this is probably the “best” position, but it requires immense capitalization (you’re going to need to be ready to pay $1B in claims per year, at least to start) and you will face intense resistance from the above parties
+
+Finally, the thing to remember is that there’s a huge disconnect between payers and patients. For giant corporations like Blue Shield, Aetna, and UHC, it’s a game of margins. But for these multi-Billion dollar profit companies, the dollar value of a single basis point is enough to bankrupt the typical American household many times over. 
 
 ## 2. Corporate DNA: Payers are billion dollar abacuses
-I don’t say this to denigrate. I say this to point out strengths and weaknesses. Insurance (of any kind) comes down to actuarial science, which itself is just one giant statistics problem set.
+I don’t say this to denigrate, but rather to point out strengths and weaknesses. Insurance (of any kind) comes down to actuarial science, which itself is just one giant statistics problem set.
 
 Therefore, payers are:  
 
@@ -125,7 +126,7 @@ But there are a host of other things that the company will have to do that is ou
 * Healthcare is just a mountain of manual paperwork. This is an industry where electronic fax solves a real, daily, high-volume problem. Hiring people to process this is 1) expensive and 2) destroys morale if it goes on too long
 * There is no interoperability. Gold is hoarded and gardens are walled in healthcare
 
- ## 7. In summary
+## 7. In summary
 1. The American healthcare industry sucks. It’s expensive, callous, and disastrous for many Americans who have the misfortune to touch it
 2. Reform is hard, bordering on impossible. The system is deadlocked, with nobody wanting to sacrifice their high salaries and profit margins first. Any attempt to do so is met with an army of lobbyists, senators, and fervid anti-Socialists. Being a payer is probably the best position from which to attempt any substantive changes, but it will by no means be easy
 3. Corporate DNA: payers are not marketers. They are not particularly empathetic. They don’t put much stock in storytelling. They are, first and foremost (and preeminently!) statisticians. This results in highly profitable, highly efficient insurance companies that patients absolutely hate
