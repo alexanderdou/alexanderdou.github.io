@@ -5,8 +5,9 @@ title: About
 
 I'm Alex
 
-I primarily work as a Product Manager. I slot between Product, BA, and Ops. I write about Product Management, and how PMs have unique leverage on the workplace happiness of their teammates
+I primarily work as a Product Manager. Historically, I've flitted between Product, Business Analyst, and Ops roles. I write about Product Management, and how PMs have unique leverage on the workplace happiness of their teammates
 
-As a hobby, I do food photography. I take photos for restaurants that balance "professional obviously staged and clearly-not-representative-of-the-median-experience" and "shitty camera phone flash I-hope-this-isn't-the-median-experience". Email me at dou.alexander@gmail.com if you know anyone who would be interested
+Current state of this site:
 
-Some of my published work can be found [here](https://impakter.com/hog-island-oyster-company-leader-sustainable-aquaculture/)
+* This is designed as an air-lock between me and the world
+* The term "air-lock" is chosen intentionally because it's a stopping point between two atmospheres to equalize pressure. My research, believes, and biases—all in their various and assorted states—represent one atmosphere. Any potential reader's will represent another. My writing here should allow us an opportuninty to equilibrate before interacting deeply
