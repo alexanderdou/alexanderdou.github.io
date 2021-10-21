@@ -19,6 +19,8 @@ Observing myself and PMs at the current role, I think those are all dissemblance
 1. It's hard to be vulnerable and I'm scared of what I'm going to hear
 2. I am overloaded and can't send out emails and schedule meetings with users
 
+
+
 (2) is the easier one to solve: you can buy tools (e.g. [Dovetail](https://dovetailapp.com/), [Sprig (née UserLeap)](https://sprig.com/), [UserFlow](https://userflow.com/user-onboarding-software)) or you can hire a person (in the "[Things You're Allowed to Do](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)" sense)
 
 (1) is the limiting reagent and the one that Product Teams have to really face
