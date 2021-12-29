@@ -30,13 +30,9 @@ Indeed, what is so hard about it?
 
 - Can’t answer every ticket. Awesome, you don’t have to. When you think about it, there are really three buckets:
 
-1. You understand the bug, and you know who should own the fix. In this case, assign it to that group
+1. You understand the bug, and you know who should own the fix. In this case, assign it to that group. If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
 
-* If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
-
-2. You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting
-
-* Protip: make sure you dig into their thought process and reasoning so that you can lessen the times that this happens
+2. You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting. Protip: make sure you dig into their thought process and reasoning so that you can lessen the times that this happens
 
 3. Not enough information to make a determination—when you have this case, ask  clarifying questions to the bug filer, and assign it back to them. Ping them a week later. If they haven’t replied, close the ticket saying “I’m going to assume this has resolved or it’s not as urgent anymore, but please reopen if I’ve gotten that wrong”
 
@@ -47,12 +43,12 @@ Things that might fall into this category:
 * It is unclear what the expected resolution is. Is it that an immediate fix for the User experiencing the bug is pushed? Or is it that the Eng team investigate because this is something that might be widespread?
 
 
- -----
+-----
+-----
 
+Here is a handy dandy Canned Phrase that you can use for dealing with Bug tickets:
 
- Here is a handy dandy Canned Phrase that you can use for dealing with Bug tickets:
-
- __Closing as `won't do`__
+__Closing as `won't do`__
 
 **Decision:**
 
