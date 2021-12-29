@@ -26,27 +26,25 @@ At the same company, my manager asked me, "what’s so hard about just sitting i
 
 Indeed, what is so hard about it? 
 
-- Can’t clear out enough time in your calendar—this is a made up reason. Most of those meetings *probably don’t matter as much as you think they do*. And if you put a 4 hour block on your calendar saying “DO NOT DISTURB—I am getting through the Bug backlog”, my bet is that most people would respect that block
-
-     - And then when you finish, take the rest of the day off. You’ve earned it
+- Can’t clear out enough time in your calendar—this is a made up reason. Most of those meetings *probably don’t matter as much as you think they do*. And if you put a 4 hour block on your calendar saying “DO NOT DISTURB—I am getting through the Bug backlog”, my bet is that most people would respect that block. And then when you finish, take the rest of the day off. You’ve earned it
 
 - Can’t answer every ticket. Awesome, you don’t have to. When you think about it, there are really three buckets:
 
-  - You understand the bug, and you know who should own the fix. In this case, assign it to that group
+1. You understand the bug, and you know who should own the fix. In this case, assign it to that group
 
-    - If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
+* If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
 
-    - You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting
+2. You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting
 
-		- Protip: make sure you dig into their thought process and reasoning so that you can lessen the times that this happens
+* Protip: make sure you dig into their thought process and reasoning so that you can lessen the times that this happens
 
-	- Not enough information to make a determination—when you have this case, ask  clarifying questions to the bug filer, and assign it back to them. Ping them a week later. If they haven’t replied, close the ticket saying “I’m going to assume this has resolved or it’s not as urgent anymore, but please reopen if I’ve gotten that wrong”
+3. Not enough information to make a determination—when you have this case, ask  clarifying questions to the bug filer, and assign it back to them. Ping them a week later. If they haven’t replied, close the ticket saying “I’m going to assume this has resolved or it’s not as urgent anymore, but please reopen if I’ve gotten that wrong”
 
-		- Things that might fall into this category:
+Things that might fall into this category:
 
-			- Cannot Reproduce the Bug/no repro steps included in the ticket. If this happens, how is an Engineer going to know whether they’ve fixed it or not? Repro steps should be table stakes for reporting a bug
+* Cannot Reproduce the Bug/no repro steps included in the ticket. If this happens, how is an Engineer going to know whether they’ve fixed it or not? Repro steps should be table stakes for reporting a bug
 
-			- It is unclear what the expected resolution is. Is it that an immediate fix for the User experiencing the bug is pushed? Or is it that the Eng team investigate because this is something that might be widespread?
+* It is unclear what the expected resolution is. Is it that an immediate fix for the User experiencing the bug is pushed? Or is it that the Eng team investigate because this is something that might be widespread?
 
 
  -----
