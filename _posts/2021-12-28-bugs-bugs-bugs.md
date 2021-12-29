@@ -32,11 +32,11 @@ Indeed, what is so hard about it?
 
 - Can’t answer every ticket. Awesome, you don’t have to. When you think about it, there are really three buckets:
 
-	- You understand the bug, and you know who should own the fix. In this case, assign it to that group
+  - You understand the bug, and you know who should own the fix. In this case, assign it to that group
 
-		- If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
+    - If you don’t know who should own the fix, take your best guess and ask them to reassign if you’ve gotten it wrong
 
-	- You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting
+    - You don’t understand the bug. In this case, enlist a SME, a mentor, or your manager. It is equally all of their jobs. But do them a favor and have a handful of these ready to go in one short 20-25 minute meeting
 
 		- Protip: make sure you dig into their thought process and reasoning so that you can lessen the times that this happens
 
