@@ -28,7 +28,7 @@ Indeed, what is so hard about it?
 
 - Can’t clear out enough time in your calendar—this is a made up reason. Most of those meetings *probably don’t matter as much as you think they do*. And if you put a 4 hour block on your calendar saying “DO NOT DISTURB—I am getting through the Bug backlog”, my bet is that most people would respect that block
 
-	- And then when you finish, take the rest of the day off. You’ve earned it
+     - And then when you finish, take the rest of the day off. You’ve earned it
 
 - Can’t answer every ticket. Awesome, you don’t have to. When you think about it, there are really three buckets:
 
