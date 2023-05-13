@@ -1,3 +1,9 @@
+---
+layout: post
+title: "why healthcare?"
+date: 2023-05-13
+---
+
 Dealing with the US healthcare system is oftentimes lonely. You are often alone in your calls with doctors’ offices and insurance companies. You are often alone when you are trying to find a doctor that accepts your insurance. You are alone in trying to figure out what it will cost you, as well as unraveling the bill that comes afterward
 
 What is important to me is to assemble a group of people who can help provide commentary, explanation, and guidance. But who also have the power and vantage point to make and push for corrections if there are errors. The best vantage point for this is a payer
