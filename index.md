@@ -1,6 +1,10 @@
 ---
-layout: default
-title: ET-Jekyll Theme
+layout: post
+excerpt_separator: <!--more-->
+title: troubleshooting Index
+description: 
+permalink: 
+date: 2024-01-30
 ---
 
 If you're reading this, I've probably pointed you here to get a little better sense of how I work and think of the world—likely in a job-hunting context. My writing can be found in <a href="/Articles">Articles</a>. 

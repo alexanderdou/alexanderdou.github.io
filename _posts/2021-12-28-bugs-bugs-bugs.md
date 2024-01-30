@@ -4,6 +4,19 @@ title: What's so hard about going through Bugs?
 date: 2021-12-28
 ---
 
+# TL;DR
+* It's straight-forward, but not easy, to get through Bugs
+* Your progression through a long backlog will grow faster geometrically as you start to recognize patterns and trends. The trick is to expose yourself to the backlog frequently enough and deeply enough, otherwise you'll forget them
+* For a backlog of 500, dedicate 1 hour per day for 1 week on it. See how far you get in the first day, then the second, and make a judgment call on whether you're getting faster. If you are, just get through to the end of the week
+* Know that you will face many "ugh-fields" <span class="sidenote-number"></span>
+
+<span class="sidenote"><a href="https://www.lesswrong.com/posts/EFQ3F6kmt4WHXRqik/ugh-fields">More about ugh fields here</a></span>
+
+* I have written some handy Canned Phrases/Auto-responses to help you with the task
+
+
+----
+
 Here's a great post about [Embracing the Grind](https://jacobian.org/2021/apr/7/embrace-the-grind/). 
 
 My favorite part is toward the end, where the author describes how they got through 2000 open bug reports. Up until them, nobody could do it—or to be more accurate, nobody *had the appetite* to do it.
@@ -14,7 +27,7 @@ My favorite part is toward the end, where the author describes how they got thro
 ----
 
 
-This is a great story. It reminds me of Sam, and how one day, there were just... big foam boards all around the office. Sam said, “I had trouble visualizing the flow and logic of what we were talking about \[we were discussing the Product Principle of whether or not Explorations should spin off their own Dataset or not], so I just printed them out.”
+This is a great story. It reminds me of [Designer], and how one day, there were just... big foam boards all around the office. Sam said, “I had trouble visualizing the flow and logic of what we were talking about \[we were discussing the Product Principle of whether or not Explorations should spin off their own Dataset or not], so I just printed them out.”
 
 I don't know where she got the foam board. I don't know how late she was at the office pinning all of this stuff together. But she did it.
 
