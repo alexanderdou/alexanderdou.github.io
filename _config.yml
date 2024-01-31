@@ -1,66 +1,35 @@
-site: Doujo
+###########
+# site.title
+
+title: Alex's Place
+description: Alex Dou's home on the Internet
 url: https://alexanderdou.com
-title: Al's Place
+host: 0.0.0.0
+
+
+#########################
+# more settings
+
 markdown: kramdown
-description: 
-twitter:
-  username: alexander_dou
-  card: summary
-  creator: #yourusername
-author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: https://alexanderdou.com
-permalink: pretty
 
-baseurl: /
-
-highlighter: none
-
-exclude:
-  - .jekyll-cache
-  
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: css
+  style:    compressed
 
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
+baseurl: ""
+permalink: pretty
+timezone: America/New_York
+future: false
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
-  
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-kramdown:
-    footnote_backlink: "⤴"
+exclude:
+- README.md
+- LICENSE.md
