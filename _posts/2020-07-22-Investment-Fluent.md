@@ -12,14 +12,15 @@ date: 2020-07-22
 
 
 ## Introduction
-Fluent is a Chrome Extension that substitutes French words into the page you’re currently reading. Their Product Thesis is that by increasing your exposure to French vocabulary words in situ, you can become more comfortable with the lanauge. I’ve been using Fluent on and off for a handful of months. 
-
-**Useful Links**
-
+Fluent is a Chrome Extension<span class="sidenote-number"></span> that substitutes French words into the page you’re currently reading. Their Product Thesis is that by increasing your exposure to French vocabulary words in situ, you can become more comfortable with the lanauge. I’ve been using Fluent on and off for a handful of months. 
+<span class="sidenote">**Useful Links**  
 [Website link](https://www.usefluent.co/)  
 [Public-facing product roadmap](https://feedback.usefluent.co/)  
 [Twitter](https://twitter.com/usefluent)  
-[ProductHunt](https://www.producthunt.com/posts/fluent-2)  
+[ProductHunt](https://www.producthunt.com/posts/fluent-2)</span>
+
+
+
 
 I will examine Fluent from the hypothetical standpoint of: Would I invest $1M into this company and expect it to make money? How much money would you expect it to make? What would need to be true and where would you need to de-risk in order for that outcome to be more likely? Let’s begin.
 

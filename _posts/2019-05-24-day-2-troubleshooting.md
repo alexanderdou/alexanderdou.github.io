@@ -2,6 +2,7 @@
 layout: post
 title: "day 2: troubleshooting"
 date: 2019-05-24
+published: false
 ---
 
 # Results of yesterday

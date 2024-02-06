@@ -2,6 +2,7 @@
 layout: post
 title: Fox Weather App Part 2/n
 date: 2021-11-30
+published: false
 ---
 
 In the [last article](https://alexanderdou.com/2021/11/25/fox-weather-app-part-1) we did a very basic map of the Fox Weather App Product: what pages exist, how the app is monetized, and download stats

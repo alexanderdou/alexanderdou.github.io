@@ -2,6 +2,7 @@
 layout: post
 title: Strategy vs Execution analogy- a door
 date: 2022-07-31
+published: false
 ---
 
 

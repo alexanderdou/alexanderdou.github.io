@@ -2,6 +2,7 @@
 layout: post
 title: "Didn't quite get to what I wanted to yesterday"
 date: 2019-06-12
+published: false
 ---
 
 # What happened yesterday

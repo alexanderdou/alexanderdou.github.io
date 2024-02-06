@@ -5,6 +5,7 @@ title: Tufte Test
 description: Alex practicing this new Jekyll Tufte theme
 permalink: 
 date: 2024-01-29
+published: false
 ---
 
 

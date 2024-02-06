@@ -2,6 +2,7 @@
 layout: post
 title: "Change of Plans"
 date: 2019-05-28
+published: false
 ---
 
 Yesterday, [I blocked myself](https://knowyourmeme.com/memes/congratulations-you-played-yourself). I created a new branch to house the attempt to replicate the [Minimal theme](https://github.com/pages-themes/minimal). However, I found myself committing changes and refreshing the URL to no avail. It took me longer than I'd like to admit to realize the reason why: I was making changes on the branch, and Jekyll builds from master.

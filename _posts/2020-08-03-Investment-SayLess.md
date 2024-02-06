@@ -22,13 +22,15 @@ It packages selected text and shortens it with an NLP model published by Faceboo
 [![We see a Gmail draft. It's a very long email from Hooli. In the top right corner of the draft popup is a black oval icon that says "117 words". When the cursor hovers over the icon the text changes to "Say Less?". The user clicks on it, and highlights most of the email (except for the "Hello" salutation and the "Best," signoff). The highlighted text is all red (instead of the normal blue). When the user let's go, all of the selected text greys out, and there is a tea brewing icon that shows up, indicating that the system is churning. The oval icon says "Loading...". After about 10 seconds, all of the highlighted text is gone, replaced with a much shorter email, approximately 30 words. (As an aside, I tried running this alt-text through Say Less and it.... wasn't great)](http://img.youtube.com/vi/w_oPHcWWAqs/0.jpg)](http://www.youtube.com/watch?v=w_oPHcWWAqs "SayLess Chrome Extension in action")
 
 
-The company behind this is called ModelZoo. They build a service that allows you to easily deploy models to an endpoint. Say Less is a commercial example of a model running on ModelZoo, and it exhibits what you can do with the platform.
+The company behind this is called ModelZoo<span class="sidenote-number"></span>. They build a service that allows you to easily deploy models to an endpoint. Say Less is a commercial example of a model running on ModelZoo, and it exhibits what you can do with the platform.
 
 
-**Useful Links**  
+<span class="sidenote">**Useful Links**  
 [Website link](https://sayless.email/)  
 [Twitter](https://twitter.com/_modelzoo_)  
-[ProductHunt](https://www.producthunt.com/posts/say-less)  
+[ProductHunt](https://www.producthunt.com/posts/say-less)  </span>
+
+
 
 I will examine ModelZoo from the hypothetical standpoint of: Would I invest $1M into this company and expect it to make money? How much money would you expect it to make? What would need to be true and where would you need to de-risk in order for that outcome to be more likely? Let’s begin.
 
