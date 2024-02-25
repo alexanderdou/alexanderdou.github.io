@@ -13,13 +13,14 @@ date: 2020-07-29
 ----
 
 
-## Surprise: Success in the Product role can be as much about the team-PM and industry-PM fit as your own individual skill, drive, and network
+## Surprise: Success in the Product is as much about the team and industry fit as your own individual skill, drive, and network
 
 There are absolutely positions where you are set up to 90% fail as a PM, and the art of this is figuring out how to avoid those positions, because accepting an ill-fitting role can backfire and make your life miserable. 
 
 It may be because the Product discipline is immature at this company, meaning that the role Product plays in successful (or otherwise) launches is unclear. 
 
-Product leadership might be weak, meaning that Product gets dumped with tasks that fall through the cracks without anybody realizing[^1] 
+Product leadership might be weak, meaning that Product gets dumped with tasks that fall through the cracks without anybody realizing<span class="sidenote-number"></span>
+<span class="sidenote">Note: this can and does happen, even in healthy Product teams, with the main difference being that it is loudly and publicly accepted, and the requisite change to scope is made legible to all stakeholders</span>
 
 This is analogous to validating the Market while you’re evaluating your Product: if it’s a failing market, you absolutely want to pivot out of there.
 
@@ -44,7 +45,8 @@ In a company with a large Product org, your manager will be one of many VPs/"Hea
 ## Lastly, view this as a Product Market Fit evaluation
 One of the biggest Anti-Patterns in Product is thinking you can solve everyone's problem. 
 
-You cannot.[^2]
+You cannot.<span class="sidenote-number"></span>
+<span class="sidenote">You should not! </span>
 
 Let another company come in and solve the use cases you left on the table. Hopefully you did your job right and your company correctly solves the problem that represents the most sustainable profit. 
 
@@ -58,6 +60,3 @@ After all, most of Product is learning how to say no.
 
 ---
 <br/>
-
-[^1]: Note: this can and does happen, even in healthy Product teams, with the main difference being that it is loudly and publicly accepted, and the requisite change to scope is made legible to all stakeholders
-[^2]: You should not! 
