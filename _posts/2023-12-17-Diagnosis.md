@@ -4,7 +4,7 @@ title: "Simple (but not Easy) Checklist for Product Team Diagnosis"
 date: 2023-12-17
 ---
 
-When I come across a new Product Team, I have developed a Checklist of questions to run through. Please let me [know](https://www.admonymous.co/alexdou) if you have developed any that I should add
+Whenever I come across a new Product Team, I run through a Checklist of diagnostic questions. Please let me [know](https://www.admonymous.co/alexdou) if you have developed any that I should add
 
 ### Top 2 Questions:
 - Is the team consistently solving Real Problems for large enough groups of Real People?
