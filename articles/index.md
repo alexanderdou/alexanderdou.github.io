@@ -1,8 +1,8 @@
 ---
 layout: articles
 title: Articles
-description: A collection of blog posts covering design and development across all mediums
+description: My writing
 ---
 
-<p>A collection of blog posts covering design and development across all mediums.</p>
+<p>My writing</p>
 
