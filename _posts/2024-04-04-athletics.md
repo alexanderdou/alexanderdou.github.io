@@ -1,7 +1,7 @@
 ---
 layout: post
 excerpt_separator: <!--more-->
-title: Athletics coaching as a lens for Product Manager Management
+title: Athletics coaching as a lens for Management
 description: aka Managerial Malpractice
 permalink: 
 date: 2024-04-04
