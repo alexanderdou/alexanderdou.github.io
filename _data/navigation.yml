@@ -12,6 +12,10 @@ links:
 
   url: /search
 
+- title: PillCrush
+
+  url: /pillcrush
+
 - title: Rss
 
   url: /atom.xml
