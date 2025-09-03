@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+        }
+        
+        #game-area {
+            display: grid;
+            grid-template-columns: repeat(6, 60px);
+            grid-template-rows: repeat(6, 60px);
+            gap: 4px;
+            margin: 20px auto;
+            width: fit-content;
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .pill {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            user-select: none;
+            transition: transform 0.1s ease;
+        }
+        
+        .pill:hover {
+            transform: scale(1.05);
+        }
+        
+        .pill.selected {
+            box-shadow: 0 0 0 3px yellow;
+        }
+        
+        .red { background: #e74c3c; }
+        .blue { background: #3498db; }
+        .green { background: #2ecc71; }
+        .yellow { background: #f1c40f; }
+        .purple { background: #9b59b6; }
+        .orange { background: #e67e22; }
+        
+        #log {
+            background: #2c3e50;
+            padding: 10px;
+            border-radius: 5px;
+            height: 200px;
+            overflow-y: auto;
+            margin-top: 20px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        h1, h2 {
+            text-align: center;
+        }
+        
+        .instructions {
+            text-align: center;
+            margin: 20px 0;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>PillCrush Swipe Test</h1>
+    <div class="instructions">
+        Try dragging a pill to an adjacent pill to swap them.<br>
+        The swipe detection system should intercept the drag and perform a swap.
+    </div>
+    
+    <div id="game-area"></div>
+    
+    <h2>Event Log</h2>
+    <div id="log"></div>
+
+    <script>
+        // Create a simple grid of pills for testing
+        const gameArea = document.getElementById('game-area');
+        const log = document.getElementById('log');
+        const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+        
+        let selectedPill = null;
+        let grid = [];
+        
+        function logEvent(message) {
+            const time = new Date().toLocaleTimeString();
+            log.innerHTML += `[${time}] ${message}<br>`;
+            log.scrollTop = log.scrollHeight;
+        }
+        
+        function createGrid() {
+            for (let row = 0; row < 6; row++) {
+                grid[row] = [];
+                for (let col = 0; col < 6; col++) {
+                    const pill = document.createElement('div');
+                    const colorIndex = Math.floor(Math.random() * colors.length);
+                    const color = colors[colorIndex];
+                    
+                    pill.className = `pill ${color}`;
+                    pill.textContent = color[0].toUpperCase();
+                    pill.dataset.row = row;
+                    pill.dataset.col = col;
+                    pill.dataset.color = color;
+                    
+                    // Original click-based selection logic
+                    pill.addEventListener('click', (e) => {
+                        logEvent(`Clicked pill at (${row}, ${col}) - ${color}`);
+                        
+                        if (selectedPill) {
+                            selectedPill.classList.remove('selected');
+                            if (selectedPill === pill) {
+                                selectedPill = null;
+                                logEvent('Deselected pill');
+                                return;
+                            }
+                            
+                            // Perform swap with original logic
+                            swapPills(selectedPill, pill);
+                            selectedPill = null;
+                        } else {
+                            selectedPill = pill;
+                            pill.classList.add('selected');
+                            logEvent('Selected pill for swapping');
+                        }
+                    });
+                    
+                    gameArea.appendChild(pill);
+                    grid[row][col] = pill;
+                }
+            }
+        }
+        
+        function swapPills(pill1, pill2) {
+            const row1 = parseInt(pill1.dataset.row);
+            const col1 = parseInt(pill1.dataset.col);
+            const row2 = parseInt(pill2.dataset.row);
+            const col2 = parseInt(pill2.dataset.col);
+            
+            logEvent(`Swapping pills (${row1}, ${col1}) and (${row2}, ${col2})`);
+            
+            // Swap visual appearance
+            const tempColor = pill1.dataset.color;
+            const tempClass = pill1.className.replace('selected', '').trim();
+            const tempText = pill1.textContent;
+            
+            pill1.dataset.color = pill2.dataset.color;
+            pill1.className = pill2.className.replace('selected', '').trim();
+            pill1.textContent = pill2.textContent;
+            
+            pill2.dataset.color = tempColor;
+            pill2.className = tempClass;
+            pill2.textContent = tempText;
+            
+            // Update grid
+            grid[row1][col1] = pill1;
+            grid[row2][col2] = pill2;
+            
+            logEvent('Swap completed!');
+        }
+        
+        // Listen for custom swipe events
+        document.addEventListener('pillSwap', (e) => {
+            logEvent('Custom pillSwap event detected!');
+            logEvent(`From: ${e.detail.fromPosition.x}, ${e.detail.fromPosition.y}`);
+            logEvent(`To: ${e.detail.toPosition.x}, ${e.detail.toPosition.y}`);
+        });
+        
+        document.addEventListener('canvasPillSwap', (e) => {
+            logEvent('Canvas swipe event detected!');
+            logEvent(`Grid from: (${e.detail.fromGrid.gridX}, ${e.detail.fromGrid.gridY})`);
+            logEvent(`Grid to: (${e.detail.toGrid.gridX}, ${e.detail.toGrid.gridY})`);
+        });
+        
+        // Initialize
+        createGrid();
+        logEvent('Game initialized. Try dragging pills to swap them!');
+    </script>
+    
+    <!-- Include our swipe detection system -->
+    <script src="swipe-overlay.js"></script>
+</body>
+</html>
