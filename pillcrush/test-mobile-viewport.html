@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>Mobile Viewport Test - PillCrush</title>
+    <style>
+        /* Import the mobile viewport fixes */
+        @import url('./mobile-viewport-fix.css');
+        
+        /* Basic styling for test */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .test-container {
+            height: 100vh;
+            height: 100dvh;
+            height: -webkit-fill-available;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom) + 1rem));
+            padding-top: env(safe-area-inset-top);
+        }
+        
+        .test-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .test-header h1 {
+            margin: 0;
+            color: #333;
+            font-size: 1.5rem;
+        }
+        
+        .test-board-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 1.5rem));
+            overflow: hidden;
+            min-height: 0;
+        }
+        
+        .test-board {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            gap: 4px;
+            width: min(90vw, calc(100vh - 280px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+            height: min(90vw, calc(100vh - 280px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+            max-width: 400px;
+            max-height: 400px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 16px;
+            padding: 8px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .test-cell {
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        
+        .test-cell:hover {
+            transform: scale(1.05);
+        }
+        
+        .test-cell:nth-child(odd) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .test-info {
+            position: fixed;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            max-width: 120px;
+            z-index: 1000;
+        }
+        
+        .test-info div {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Mobile optimizations */
+        @media (max-width: 480px) {
+            .test-board-container {
+                padding: 0.5rem;
+                padding-bottom: max(2.5rem, calc(env(safe-area-inset-bottom) + 2rem));
+            }
+            
+            .test-board {
+                width: min(85vw, calc(100vh - 220px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+                height: min(85vw, calc(100vh - 220px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+                gap: 3px;
+                padding: 6px;
+            }
+            
+            .test-info {
+                position: static;
+                margin: 1rem;
+                transform: none;
+                max-width: none;
+            }
+        }
+        
+        /* Tablet optimizations */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .test-board-container {
+                padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom) + 1rem));
+            }
+            
+            .test-board {
+                width: min(70vw, calc(100vh - 250px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+                height: min(70vw, calc(100vh - 250px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+                max-width: 500px;
+                max-height: 500px;
+            }
+        }
+        
+        /* Landscape mode */
+        @media (max-width: 768px) and (orientation: landscape) {
+            .test-board-container {
+                padding-bottom: max(1rem, calc(env(safe-area-inset-bottom) + 0.5rem));
+            }
+            
+            .test-board {
+                width: min(60vh, calc(100vw - 100px));
+                height: min(60vh, calc(100vw - 100px));
+            }
+        }
+        
+        /* iOS Safari specific */
+        @supports (-webkit-touch-callout: none) {
+            .test-container {
+                height: -webkit-fill-available;
+                min-height: -webkit-fill-available;
+            }
+            
+            @media (max-width: 480px) {
+                .test-board-container {
+                    padding-bottom: max(3rem, calc(env(safe-area-inset-bottom) + 2.5rem));
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="test-header">
+            <h1>Mobile Viewport Test</h1>
+            <div>Check bottom spacing on your device</div>
+        </div>
+        
+        <div class="test-board-container">
+            <div class="test-board" id="testBoard">
+                <!-- Grid cells will be generated by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="test-info">
+            <div><strong>Viewport Info:</strong></div>
+            <div>Screen: <span id="screenSize"></span></div>
+            <div>Viewport: <span id="viewportSize"></span></div>
+            <div>Safe Area Bottom: <span id="safeAreaBottom"></span></div>
+            <div>User Agent: <span id="userAgent"></span></div>
+        </div>
+    </div>
+
+    <script>
+        // Generate test grid
+        const testBoard = document.getElementById('testBoard');
+        for (let i = 0; i < 64; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'test-cell';
+            cell.textContent = i + 1;
+            testBoard.appendChild(cell);
+        }
+        
+        // Update viewport info
+        function updateViewportInfo() {
+            document.getElementById('screenSize').textContent = `${screen.width}×${screen.height}`;
+            document.getElementById('viewportSize').textContent = `${window.innerWidth}×${window.innerHeight}`;
+            document.getElementById('userAgent').textContent = navigator.userAgent.includes('iPhone') ? 'iPhone' : 
+                                                             navigator.userAgent.includes('iPad') ? 'iPad' :
+                                                             navigator.userAgent.includes('Android') ? 'Android' : 'Other';
+            
+            // Try to detect safe area
+            const testEl = document.createElement('div');
+            testEl.style.paddingBottom = 'env(safe-area-inset-bottom)';
+            document.body.appendChild(testEl);
+            const computedStyle = getComputedStyle(testEl);
+            document.getElementById('safeAreaBottom').textContent = computedStyle.paddingBottom || 'N/A';
+            document.body.removeChild(testEl);
+        }
+        
+        updateViewportInfo();
+        window.addEventListener('resize', updateViewportInfo);
+        window.addEventListener('orientationchange', () => {
+            setTimeout(updateViewportInfo, 100);
+        });
+    </script>
+</body>
+</html>

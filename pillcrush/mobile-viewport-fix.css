@@ -1,0 +1,97 @@
+/* Mobile Viewport Enhancement for PillCrush */
+/* Enhanced safe area handling for iOS and mobile browsers */
+
+/* Improve game container mobile viewport handling */
+.game-container {
+  /* Use dynamic viewport height for better mobile support */
+  height: 100vh;
+  height: 100dvh;
+  /* Ensure consistent viewport on iOS Safari */
+  height: -webkit-fill-available;
+  /* Enhanced safe area handling */
+  padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom) + 1rem));
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Enhanced game board container with better spacing */
+.game-board-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* Increased bottom padding for mobile nav bars */
+  padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 1.5rem));
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Improved game board sizing for various mobile devices */
+.game-board {
+  /* Better responsive calculations */
+  width: min(90vw, calc(100vh - 280px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+  height: min(90vw, calc(100vh - 280px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+}
+
+/* Mobile-specific enhancements */
+@media (max-width: 480px) {
+  .game-board-container {
+    padding: 0.5rem;
+    /* Increased spacing for mobile nav interference */
+    padding-bottom: max(2.5rem, calc(env(safe-area-inset-bottom) + 2rem));
+  }
+  
+  .game-board {
+    /* Adjusted sizing for smaller screens */
+    width: min(85vw, calc(100vh - 220px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+    height: min(85vw, calc(100vh - 220px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+    gap: 3px;
+    padding: 6px;
+  }
+}
+
+/* Tablet-specific optimizations */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .game-board-container {
+    /* Less aggressive padding on tablets */
+    padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom) + 1rem));
+  }
+  
+  .game-board {
+    /* Larger board on tablets */
+    width: min(70vw, calc(100vh - 250px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+    height: min(70vw, calc(100vh - 250px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+/* Landscape orientation handling */
+@media (max-width: 768px) and (orientation: landscape) {
+  .game-board-container {
+    padding-bottom: max(1rem, calc(env(safe-area-inset-bottom) + 0.5rem));
+  }
+  
+  .game-board {
+    /* More horizontal space usage in landscape */
+    width: min(60vh, calc(100vw - 100px));
+    height: min(60vh, calc(100vw - 100px));
+  }
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .game-container {
+    /* iOS-specific viewport handling */
+    height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
+  }
+  
+  /* Handle iOS Safari's dynamic viewport changes */
+  @media (max-width: 480px) {
+    .game-board-container {
+      /* Extra padding for iOS Chrome bottom bar */
+      padding-bottom: max(3rem, calc(env(safe-area-inset-bottom) + 2.5rem));
+    }
+  }
+}
